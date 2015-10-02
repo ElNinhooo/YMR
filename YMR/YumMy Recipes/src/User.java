@@ -1,8 +1,10 @@
+//The user of the application
 
 public class User {
 	private String _name;
 	private String _email;
 	private String _pwd;
+	private String _language;
 	
 	public User(String iName, String iEmail, String iPwd){
 		Name(iName);
@@ -32,4 +34,10 @@ public class User {
 		return this._pwd;
 	}
 	
+	public String Language(){
+		return this._language;
+	}
+	public void Language(String iLanguage){
+		this._language = iLanguage;
+	}
 }
