@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="YMR" match-name="TbComments"/>
+  <table-filter match-catalog="YMR" match-name="TbConversion"/>
+  <table-filter match-catalog="YMR" match-name="TbCountries"/>
+  <table-filter match-catalog="YMR" match-name="TbFollowers"/>
+  <table-filter match-catalog="YMR" match-name="TbHashtags"/>
+  <table-filter match-catalog="YMR" match-name="TbImages"/>
+  <table-filter match-catalog="YMR" match-name="TbIngredients"/>
+  <table-filter match-catalog="YMR" match-name="TbLanguages"/>
+  <table-filter match-catalog="YMR" match-name="TbLikes"/>
+  <table-filter match-catalog="YMR" match-name="TbMeasureTypes"/>
+  <table-filter match-catalog="YMR" match-name="TbMeasures"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipeHashtags"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipeIngredients"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipePartTips"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipeParts"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipeSteps"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipeTag"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipeTips"/>
+  <table-filter match-catalog="YMR" match-name="TbRecipes"/>
+  <table-filter match-catalog="YMR" match-name="TbTagTypes"/>
+  <table-filter match-catalog="YMR" match-name="TbTags"/>
+  <table-filter match-catalog="YMR" match-name="TbTips"/>
+  <table-filter match-catalog="YMR" match-name="TbTipsType"/>
+  <table-filter match-catalog="YMR" match-name="TbUserTitles"/>
+  <table-filter match-catalog="YMR" match-name="TbUserTypes"/>
+  <table-filter match-catalog="YMR" match-name="TbUsers"/>
+</hibernate-reverse-engineering>
