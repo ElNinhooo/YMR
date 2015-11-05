@@ -41,10 +41,18 @@ public class TbUsers implements java.io.Serializable {
 	private String userEmail;
 	private Date userJoined;
 	
+	/*
+	 * One To Many Relationship
+	 */
+	// For all the comments done by the user
 	private Collection<TbComments> comments = new ArrayList<TbComments>();
-	
+	// For all the recipes of the user
 	private Collection<TbRecipes> recipes = new ArrayList<TbRecipes>();
 	
+	/*
+	 * Many To Many RelationShip
+	 */
+	// To track all the recipes that the user liked
 	private Collection<TbRecipes> recipesLiked = new ArrayList<TbRecipes>();
 	
 	public TbUsers() {
